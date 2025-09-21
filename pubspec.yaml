@@ -1,19 +1,26 @@
+name: joblens_cv
+description: ATS uyumlu CV oluşturan Flutter uygulaması.
+version: 1.0.0
+
+environment:
+  sdk: '^3.3.0'
+
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  get: ^4.6.5  # State management için
-  hive: ^2.2.3  # Yerel depolama
+  get: ^4.6.5
+  hive: ^2.2.3
   hive_flutter: ^1.1.0
-  firebase_core: ^2.15.0  # Firebase temel
-  firebase_auth: ^4.7.2  # Kimlik doğrulama
-  cloud_firestore: ^4.8.4  # Veritabanı
-  http: ^1.1.0  # API istekleri
-  pdf: ^3.10.4  # PDF oluşturma
-  path_provider: ^2.1.0  # Dosya işlemleri
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  http: ^1.1.0
+  pdf: ^3.10.4
+  path_provider: ^2.1.0
   shared_preferences: ^2.2.0
-  flutter_dotenv: ^5.1.0  # Çevre değişkenleri
-  
+  flutter_dotenv: ^5.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
